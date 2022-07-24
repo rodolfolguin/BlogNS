@@ -20,7 +20,7 @@ div h2, div h3{
 
 *{
     font-size: 24px;
-    color: black;
+   /* color: black; */
 }
 
 /*
@@ -55,7 +55,46 @@ div h2, div h3{
     border-width: 5px;
 }
 
+#fondo{
+    background-color:rgba(255,0,0,0.3);
+    /*RGBA = permite generar una
+    transparencia indicando los valores de color primero y luego los
+    de niveles de transparencia. Ejemplo: (0,0,0,0.3)*/
+    /*opacity: 0.3;*/
+    height: 200px;
+    background: red url(img/Gohan.jpg) repeat-y center bottom /100px 100px;
+}
 
+.margen{
+    background-color:chocolate;
+    border: black 2px solid;
+    margin: 15px;
+    padding: 30px 15px;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid blue;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    text-decoration: overline;
+    text-shadow:3px 5px 5px blue;
+}
+
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color:gray;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:red;
+}
 
 
 
