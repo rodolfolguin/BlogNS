@@ -1,0 +1,62 @@
+#titulo{
+    color: tomato;
+}
+
+p.texto {
+    color: slateblue;
+}
+
+p.especial{
+    color: mediumseagreen
+}
+
+div p{
+    color: aquamarine;
+}
+
+div h2, div h3{
+    color: brown;
+}
+
+*{
+    font-size: 24px;
+    color: black;
+}
+
+/*
+.color{
+    color:#ff0000;
+}
+
+.color{
+    color:rgb(0,255,255)
+}
+*/
+/* .color{
+    border: 5px black solid;
+
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+
+} */
+
+.color{
+    border-style: solid;
+    border-color: blue;
+    border-radius: 20px;
+    border-width: 5px;
+}
+
+
+
+
+
+/*Esto es una prueba de comentario en CSS*/
