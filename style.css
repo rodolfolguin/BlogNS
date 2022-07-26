@@ -96,6 +96,75 @@ a:active{
     color:red;
 }
 
+ul{
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+    /* list-style-position: inside;*/
+}
 
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
 
+th, td{
+    border:solid 1px #eee;
+    padding: 5px;
+}
+
+th{
+    background-color:tomato;
+    color:white;
+    text-align:left;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+    cursor:pointer;
+}
+
+tr:hover{
+    background-color: #aaa;
+    cursor:pointer;
+}
+
+span{
+    display:block;
+}
+
+.inline{
+    display:inline;
+}
+
+.left{
+    float:left;
+    width:200px;
+    height: 200px;
+}
+
+.right{
+    float:right;
+
+}
+
+.column{
+    margin:0px;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+.center{
+    padding: 50px;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color:aqua;
+}
 /*Esto es una prueba de comentario en CSS*/
